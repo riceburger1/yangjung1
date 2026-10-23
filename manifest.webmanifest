@@ -1,0 +1,25 @@
+{
+  "name": "전교인 한마음 체육대회",
+  "short_name": "한마음 체육대회",
+  "description": "체육대회 안내·팀검색·운영 담당자 확인",
+  "id": "./",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f7fd",
+  "theme_color": "#132e61",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
