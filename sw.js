@@ -1,5 +1,5 @@
-const CACHE='hanmaeum2026-v2-20261024';
-const ASSETS=['./','./index.html','./poster.jpg','./games.png','./layout.png','./table.jpg','./icon-192.png','./icon-512.png','./manifest.webmanifest'];
+const CACHE='hanmaeum2026-v4-layout-final-20261024';
+const ASSETS=['./','./index.html','./poster.jpg','./layout.png','./table.jpg','./icon-192.png','./icon-512.png','./manifest.webmanifest'];
 self.addEventListener('install', event => {
  event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
