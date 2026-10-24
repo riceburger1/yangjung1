@@ -1,4 +1,4 @@
-const CACHE='hanmaeum2026-v5-layout-final-20261024';
+const CACHE='hanmaeum2026-v6-sponsors-20261024';
 const ASSETS=['./','./index.html','./poster.jpg','./layout.png','./table.jpg','./icon-192.png','./icon-512.png','./manifest.webmanifest'];
 self.addEventListener('install', event => {
  event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
